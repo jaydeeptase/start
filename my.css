@@ -1,0 +1,42 @@
+html, body
+{
+    background-color: #d8d8d8;
+    height: 100%;
+}
+table,
+thead,
+th,
+tr,
+td {
+  border: 0px solid black;
+  padding:10px;
+  border-collapse:collapse;
+}
+
+table {
+  margin-bottom:10px;
+  width:100%;
+font-family:Verdana;
+font-size: small;
+color:#00f;
+}
+
+th {
+  background:#424242;
+  color:white;
+  width:10%;
+}
+
+
+col:nth-child(odd) {
+  background:#f2f2f2;
+}
+
+col:nth-child(even) {
+  background:#e6e6e6;
+}
+
+a{
+    color: #0b0b3b;
+    text-decoration: none;
+}
